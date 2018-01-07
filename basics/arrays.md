@@ -98,6 +98,7 @@ char[] encrypt(char[] input, char shift)
 {
     auto result = input.dup;
     // TODO: shift each character
+    // Solution: https://github.com/dlang-tour/core/issues/227
     return result;
 }
 
